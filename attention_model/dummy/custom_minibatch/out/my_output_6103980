@@ -1,0 +1,15 @@
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:145: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(self.z_init))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:152: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(z))
+loaded train data loader
+loaded valid
+started
+gpu found
+validtion evaluation for best model: params_{'learn_rate': 0.00066, 'face_hid_dim': 32, 'contxt_dim': 128, 'lan_hid_dim': 250}
+test evaluation for best model: params_{'learn_rate': 0.00066, 'face_hid_dim': 32, 'contxt_dim': 128, 'lan_hid_dim': 250}
+{'learn_rate': 0.00066, 'face_hid_dim': 32, 'contxt_dim': 128, 'lan_hid_dim': 250}
+0.00066
+32
+128
+250
