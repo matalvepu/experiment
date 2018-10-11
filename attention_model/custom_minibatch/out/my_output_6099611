@@ -1,0 +1,15 @@
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:145: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(self.z_init))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:152: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(z))
+loaded train
+loaded test
+loaded valid
+started
+gpu found
+Traceback (most recent call last):
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi.py", line 234, in <module>
+    train_mosi_sentiments(mosi_model,params)
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi.py", line 192, in train_mosi_sentiments
+    mosi_model.save(open(model_file,'wb'))	
+IOError: [Errno 2] No such file or directory: "~/ets/deep_learning/experiment/attention_model/custom_minibatch/models/params_{'learn_rate': 0.00066, 'face_hid_dim': 32, 'contxt_dim': 128, 'lan_hid_dim': 250}"

@@ -1,0 +1,5 @@
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:145: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(self.z_init))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:152: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(z))
+slurmstepd: error: *** JOB 6096829 ON bhg0024 CANCELLED AT 2018-10-11T11:29:08 ***
