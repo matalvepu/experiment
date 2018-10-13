@@ -1,0 +1,27 @@
+loaded train data loader
+loaded test
+loaded valid
+started
+(100, 60, 32, 0.0001)
+{'hidden_dim': 100, 'input_dim': 300} {'hidden_dim': 60, 'input_dim': 74} {'hidden_dim': 32, 'input_dim': 47} 128
+gpu found
+{'a': 60, 'lr': 0.0001, 'l': 100, 'f': 32}
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:123: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  wt1=self.s(self.att_w1(z))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:124: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  wt2=self.s(self.att_w2(z))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:125: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  wt3=self.s(self.att_w3(z))
+/software/anaconda/5.2.0/lib/python2.7/site-packages/numpy/lib/nanfunctions.py:703: RuntimeWarning: Mean of empty slice
+  warnings.warn("Mean of empty slice", RuntimeWarning)
+/software/anaconda/5.2.0/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/software/anaconda/5.2.0/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+validtion evaluation for best model: m_{'a': 60, 'lr': 0.0001, 'l': 100, 'f': 32}
+test evaluation for best model: m_{'a': 60, 'lr': 0.0001, 'l': 100, 'f': 32}
+{'a': 60, 'lr': 0.0001, 'l': 100, 'f': 32}
+60
+0.0001
+100
+32

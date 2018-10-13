@@ -2,4 +2,4 @@ batch size=2,worker=2,data loader---program run time 863.646795034seconds
 
 batch size=20,worker=10---data loader---program run time 467.129029036seconds 
 
-batch size=60,worker=10,---data loader---program run time 478.49211216seconds ---multiple attention program run time 2392.76370192seconds ---
+batch size=60,worker=10,---data loader---program run time 478.49211216seconds ---multiple attention program run time 2392.76370192seconds ---multiple attention full data program run time 16598.5017769seconds ---
