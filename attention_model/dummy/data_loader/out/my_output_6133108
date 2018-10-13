@@ -1,0 +1,21 @@
+loaded train data loader
+loaded valid
+started
+(100, 60, 32, 0.0001)
+{'hidden_dim': 100, 'input_dim': 300} {'hidden_dim': 60, 'input_dim': 74} {'hidden_dim': 32, 'input_dim': 47} 128
+gpu found
+{'a': 60, 'lr': 0.0001, 'l': 100, 'f': 32}
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:123: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  wt1=self.s(self.att_w1(z))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:124: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  wt2=self.s(self.att_w2(z))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:125: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  wt3=self.s(self.att_w3(z))
+Traceback (most recent call last):
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_loader.py", line 238, in <module>
+    train_mosi_sentiments(mosi_model,params_config)
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_loader.py", line 203, in train_mosi_sentiments
+    evaluate_best_model(model_name,params)
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_loader.py", line 159, in evaluate_best_model
+    best_model=MOSI_attention_classifier(d_lan_param,d_face_param,1)
+TypeError: __init__() takes exactly 7 arguments (4 given)

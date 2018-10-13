@@ -1,0 +1,16 @@
+loaded train data loader
+loaded valid
+started
+gpu found
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:145: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(self.z_init))
+/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py:152: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  attn_weigths=s(self.W_a(z))
+Traceback (most recent call last):
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_parallel.py", line 238, in <module>
+    train_mosi_sentiments(mosi_model,params)
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_parallel.py", line 196, in train_mosi_sentiments
+    mosi_model.save(open(model_file,'wb'))	
+  File "/home/mhasan8/.local/lib/python2.7/site-packages/torch/nn/modules/module.py", line 518, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'DataParallel' object has no attribute 'save'

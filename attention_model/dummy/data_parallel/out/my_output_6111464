@@ -1,0 +1,8 @@
+loaded train data loader
+loaded valid
+started
+gpu found
+Traceback (most recent call last):
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_parallel.py", line 233, in <module>
+    model = nn.DataParallel(model)
+NameError: name 'model' is not defined
