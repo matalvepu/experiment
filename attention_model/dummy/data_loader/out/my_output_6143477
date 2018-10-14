@@ -1,0 +1,8 @@
+loaded train data loader
+loaded test
+loaded valid
+started
+(256, 56, 40, 0.00066)
+{'hidden_dim': 256, 'input_dim': 300} {'hidden_dim': 56, 'input_dim': 74} {'hidden_dim': 40, 'input_dim': 47} 234
+gpu found
+{'a': 56, 'lr': 0.00066, 'l': 256, 'f': 40}

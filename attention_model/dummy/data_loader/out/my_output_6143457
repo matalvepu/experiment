@@ -1,0 +1,14 @@
+loaded train data loader
+loaded test
+loaded valid
+started
+(256, 48, 40, 0.00066)
+{'hidden_dim': 256, 'input_dim': 300} {'hidden_dim': 48, 'input_dim': 74} {'hidden_dim': 40, 'input_dim': 47} 229
+gpu found
+{'a': 48, 'lr': 0.00066, 'l': 256, 'f': 40}
+best valid loss 0.68568
+best valid loss 0.68095
+best valid loss 0.67824
+best valid loss 0.677086
+best valid loss 0.676145
+best valid loss 0.675885
