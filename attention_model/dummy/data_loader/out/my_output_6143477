@@ -6,3 +6,13 @@ started
 {'hidden_dim': 256, 'input_dim': 300} {'hidden_dim': 56, 'input_dim': 74} {'hidden_dim': 40, 'input_dim': 47} 234
 gpu found
 {'a': 56, 'lr': 0.00066, 'l': 256, 'f': 40}
+best valid loss 0.685825
+best valid loss 0.680485
+best valid loss 0.677515
+best valid loss 0.676228
+best valid loss 0.675624
+best valid loss 0.675037
+best valid loss 0.675002
+best valid loss 0.674726
+best valid loss 0.674059
+best valid loss 0.672966
