@@ -78,3 +78,62 @@ best valid loss 0.672462
 best valid loss 0.672365
 best valid loss 0.67222
 best valid loss 0.672185
+best valid loss 0.672051
+best valid loss 0.671903
+best valid loss 0.671756
+best valid loss 0.671633
+best valid loss 0.671531
+best valid loss 0.671222
+best valid loss 0.671107
+best valid loss 0.670903
+best valid loss 0.670624
+best valid loss 0.670341
+best valid loss 0.670206
+best valid loss 0.669994
+best valid loss 0.669828
+best valid loss 0.669568
+best valid loss 0.669491
+best valid loss 0.669311
+best valid loss 0.66914
+best valid loss 0.668907
+best valid loss 0.668644
+best valid loss 0.668516
+best valid loss 0.66845
+best valid loss 0.668307
+best valid loss 0.668178
+best valid loss 0.667731
+best valid loss 0.667406
+validtion evaluation for best model: m_{'a': 48, 'lr': 6.6e-05, 'l': 256, 'f': 40}
+test evaluation for best model: m_{'a': 48, 'lr': 6.6e-05, 'l': 256, 'f': 40}
+{'a': 48, 'lr': 6.6e-05, 'l': 256, 'f': 40}
+48
+6.6e-05
+256
+40
+(228, 48, 32, 0.0066)
+{'hidden_dim': 228, 'input_dim': 300} {'hidden_dim': 48, 'input_dim': 74} {'hidden_dim': 32, 'input_dim': 47} 205
+gpu found
+{'a': 48, 'lr': 0.0066, 'l': 228, 'f': 32}
+best valid loss 0.680464
+best valid loss 0.679114
+best valid loss 0.673673
+best valid loss 0.672375
+best valid loss 0.67099
+/software/anaconda/5.2.0/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/software/anaconda/5.2.0/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+validtion evaluation for best model: m_{'a': 48, 'lr': 0.0066, 'l': 228, 'f': 32}
+test evaluation for best model: m_{'a': 48, 'lr': 0.0066, 'l': 228, 'f': 32}
+{'a': 48, 'lr': 0.0066, 'l': 228, 'f': 32}
+48
+0.0066
+228
+32
+(184, 60, 32, 0.01)
+{'hidden_dim': 184, 'input_dim': 300} {'hidden_dim': 60, 'input_dim': 74} {'hidden_dim': 32, 'input_dim': 47} 184
+gpu found
+{'a': 60, 'lr': 0.01, 'l': 184, 'f': 32}
+best valid loss 0.673754
+best valid loss 0.673255
+best valid loss 0.67321

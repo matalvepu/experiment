@@ -28,3 +28,25 @@ best valid loss 0.667592
 best valid loss 0.660709
 best valid loss 0.65855
 best valid loss 0.65758
+best valid loss 0.656342
+best valid loss 0.656022
+best valid loss 0.652365
+best valid loss 0.650887
+best valid loss 0.616291
+best valid loss 0.597001
+best valid loss 0.57915
+validtion evaluation for best model: m_{'a': 48, 'lr': 0.00066, 'l': 256, 'f': 40}
+test evaluation for best model: m_{'a': 48, 'lr': 0.00066, 'l': 256, 'f': 40}
+{'a': 48, 'lr': 0.00066, 'l': 256, 'f': 40}
+48
+0.00066
+256
+40
+(256, 48, 32, 0.1)
+{'hidden_dim': 256, 'input_dim': 300} {'hidden_dim': 48, 'input_dim': 74} {'hidden_dim': 32, 'input_dim': 47} 224
+gpu found
+{'a': 48, 'lr': 0.1, 'l': 256, 'f': 32}
+best valid loss 2.87466
+best valid loss 0.717455
+best valid loss 0.672291
+best valid loss 0.672076

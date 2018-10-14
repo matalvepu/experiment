@@ -14,3 +14,22 @@ best valid loss 0.679138
 best valid loss 0.678198
 best valid loss 0.675305
 best valid loss 0.673399
+best valid loss 0.672595
+/software/anaconda/5.2.0/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/software/anaconda/5.2.0/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+validtion evaluation for best model: m_{'a': 60, 'lr': 0.1, 'l': 228, 'f': 32}
+test evaluation for best model: m_{'a': 60, 'lr': 0.1, 'l': 228, 'f': 32}
+{'a': 60, 'lr': 0.1, 'l': 228, 'f': 32}
+60
+0.1
+228
+32
+(256, 48, 40, 0.1)
+{'hidden_dim': 256, 'input_dim': 300} {'hidden_dim': 48, 'input_dim': 74} {'hidden_dim': 40, 'input_dim': 47} 229
+gpu found
+{'a': 48, 'lr': 0.1, 'l': 256, 'f': 40}
+best valid loss 0.77535
+best valid loss 0.673342
+best valid loss 0.672082
