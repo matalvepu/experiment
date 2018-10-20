@@ -1,0 +1,27 @@
+loaded train data loader
+loaded test
+loaded valid
+started
+(228, 40, 32, 0.00066)
+{'hidden_dim': 228, 'input_dim': 300} {'hidden_dim': 40, 'input_dim': 74} {'hidden_dim': 32, 'input_dim': 47} 200
+gpu found
+{'a': 40, 'lr': 0.00066, 'l': 228, 'f': 32}
+best valid loss 0.680932
+Traceback (most recent call last):
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_loader.py", line 214, in <module>
+    train_mosi_sentiments(mosi_model,params_config)
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_loader.py", line 153, in train_mosi_sentiments
+    train_loss=train_epoch(mosi_model, opt, criterion)
+  File "/home/mhasan8/ets/deep_learning/attention_model/train_attention_mosi_data_loader.py", line 86, in train_epoch
+    y_hat=mosi_model.forward(x)
+  File "/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py", line 208, in forward
+    h_lan,c_lan=self.lan_lstm.forward(x_lan,self.lan_init_param,z_init)
+  File "/gpfs/fs1/home/mhasan8/ets/deep_learning/attention_model/attention_model.py", line 101, in forward
+    i = torch.sigmoid(self.W_xi(x) + self.W_hi(h) + self.W_zi(z))
+  File "/home/mhasan8/.local/lib/python2.7/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/mhasan8/.local/lib/python2.7/site-packages/torch/nn/modules/linear.py", line 55, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/mhasan8/.local/lib/python2.7/site-packages/torch/nn/functional.py", line 1026, in linear
+    output = input.matmul(weight.t())
+RuntimeError: Expected object of type torch.cuda.FloatTensor but found type torch.FloatTensor for argument #2 'mat2'
